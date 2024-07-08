@@ -15,7 +15,7 @@ return(
             <input type="email" id="email" name="email" onChange={handleOnChange}value={rest.email}/>
       
             <label htmlFor="mobile">Mobile: </label> 
-            <input type="number" id="mobile" name="mobile" onChange={handleOnChange}value={rest.mobile}/>
+            <input type="string" id="mobile" name="mobile" onChange={handleOnChange}value={rest.mobile}/>
       
             <button className="btn"> Submit</button>
           </form>
